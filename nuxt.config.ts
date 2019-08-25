@@ -2,6 +2,7 @@ import "vue-tsx-support/enable-check"
 const nodeExternals = require('webpack-node-externals')
 
 module.exports = {
+    srcDir: 'src/',
     router: {
         mode: "hash",
     },
