@@ -8,6 +8,9 @@ module.exports = {
     },
     head: {
         title: 'io-board forms',
+        link: [
+             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons' },
+        ]
     },
     manifest: {
         name: 'IO-Board Content Editor',
@@ -22,7 +25,9 @@ module.exports = {
         appleMobileWebAppStatusBarStyle: '#344675',
         workboxPluginMode: 'GenerateSW',
     },
-
+    plugins: [
+        { src: '~/plugins/editor', ssr: false },
+    ],
     buildModules: [
         // Simple usage
         '@nuxtjs/vuetify',

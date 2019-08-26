@@ -16,7 +16,10 @@
     "fibers": "^4.0.1",
     "nuxt": "2.9.1",
     "vue-tsx-support": "2.3.1",
-    "vuetify": "2.0.10"
+    "vuetify": "2.0.10",
+    "medium-editor": "5.23.3",
+    "turndown": "5.0.3",
+    "vue-upload-component": "2.8.20"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "0.1.11",
